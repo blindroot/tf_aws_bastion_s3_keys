@@ -47,3 +47,7 @@ variable "eip" {
 variable "associate_public_ip_address" {
   default = false
 }
+variable "key_name" {
+  description = "Key pair to provision - helps with debugging"
+  default = ""
+}
